@@ -1,0 +1,10 @@
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+  .card {
+    margin: 0 3rem;
+  }
+  .responsive-btn {
+    font-size: 0.875rem !important; /* Smaller font for btn-sm */
+    padding: 0.25rem 0.5rem !important; /* Smaller padding for btn-sm */
+  }
+}

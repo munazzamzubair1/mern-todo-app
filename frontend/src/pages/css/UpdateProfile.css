@@ -1,0 +1,10 @@
+/* Update Profile form css */
+.updateprofile-form {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.label-container {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+/* Update task form css */
+.updatetask-form {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Media quereis for smaller screens */
+@media (max-width: 768px) {
+  form {
+    margin: 0 2rem;
+  }
+}

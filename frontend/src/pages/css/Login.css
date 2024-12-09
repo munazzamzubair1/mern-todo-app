@@ -1,0 +1,15 @@
+/* Login form styling */
+.login-form {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.label-container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  form {
+    margin-bottom: 2rem;
+  }
+}
