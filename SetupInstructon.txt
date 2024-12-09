@@ -1,0 +1,79 @@
+# **Login System Setup Guide**  
+
+Welcome to your To-Do app setup! Follow these instructions to get everything up and running effortlessly.  
+
+---
+
+## **Login Credentials**  
+
+### **Admin Access**  
+- **Username:** `munazzam`  
+- **Password:** `munazzam`  
+
+Alternatively, sign up as a new user to manage tasks. You’ll have full control to:  
+- Add, update, and delete tasks.  
+- Track task details, including due dates, completion status, and timestamps for creation or updates.  
+
+---
+
+## **Setup Instructions**  
+
+### **1. Install Dependencies**  
+1. Clone or download the project repository.  
+2. Open a terminal and navigate to the root project directory.  
+   - **The project contains two folders:** `frontend` and `backend`.  
+3. Run the following commands:  
+   - **Frontend Setup:**  
+     ```bash
+     cd frontend
+     npm install
+     ```  
+   - **Backend Setup:**  
+     ```bash
+     cd ../backend
+     npm install
+     ```  
+
+### **2. Run the Application**  
+You have two options to start the app:  
+
+#### **Option 1: Concurrently Run Both Frontend and Backend**  
+From the `frontend` directory, use the following command:  
+```bash
+npm run start:both
+```  
+> This uses the `concurrently` package to launch both servers simultaneously.  
+
+#### **Option 2: Run Separately**  
+- **Frontend:**  
+  ```bash
+  cd frontend
+  npm start
+  ```  
+- **Backend:**  
+  ```bash
+  cd backend
+  npm run dev
+  ```  
+Alternatively, you can run the backend server with nodemon:  
+```bash
+nodemon ./src/routes/index.js
+```  
+
+### **3. Database Setup**  
+- Open your MongoDB client.  
+- Create a new database called `todo`.  
+
+### **4. Access the Application**  
+- Launch the React frontend:  
+  ```bash
+  npm start
+  ```  
+- Open your browser and visit:  
+  [http://localhost:3000](http://localhost:3000)  
+
+---
+
+## **All Set!** 🎉  
+Your To-Do app is now ready to use. If you have any questions or need assistance, feel free to reach out:  
+📧 **[webmunazzam@gmail.com](mailto:webmunazzam@gmail.com)**  
